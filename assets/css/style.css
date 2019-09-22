@@ -1,19 +1,4 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding-right: 279px;
-    overflow: hidden;
-    background-color:#ffffff;
-  }
-  
-  li {
-    float: left;
-    border-right:1px solid #bbb;
-  }
-  
-  li:last-child {
-    border-right: none;
-  }
+
   
   li a {
     display: block;
@@ -23,7 +8,11 @@ ul {
     text-decoration: none;
   }
   
-  
+  .row
+  {
+    display: table;
+
+  }
   
   .active {
     background-color: #4aaaa5;
@@ -46,7 +35,7 @@ ul {
   h3
   {
     color: #4aaaa5;
-    font-size: 20px;
+    font-size: 27px;
   }
   
   #content
@@ -54,11 +43,23 @@ ul {
   
       
       margin: 0 auto;
-      margin-top: 20px;
+      margin-top: 51px;
       width: 960px;
       height: 342px;
       border: solid #dddddd 2px;
+      padding: 30px;
+      clear: both;
+      background-color: #ffffff;
   
+  }
+
+  
+  .nav-side a
+  {
+    color: gray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
   }
   
   body {
@@ -76,42 +77,95 @@ ul {
     height: 38px;
   }
 
+  .nav-side{
 
+    float: right;
+    padding-top: 20px;
+  }
 
-#contact ul {
-  margin-bottom: 20px;
+  .logo-side
+  {
+      float: left;
+      color: #ffffff;
+      background-color: #4aaaa5;
+      text-align: center;
+      width: 200px;
+  }
+
+  header
+  {
+
+        padding-right: 286px;
+        padding-left: 268px;
+        background-color: #ffffff;
+        position: fixed;
+        width: 100%;
+        max-width: 960px;
+        top: 0px
+
+  }
+/* .top-Float
+{
+
+  display: inline-block;
+  vertical-align: top;
+}*/
+
+.column {
+  float: left;
+  width: 47.33%;
+  padding: 5px;
 }
+.row h3{
+  
+  position: absolute;
+  bottom: 2px;
+  width: 150px;
+  padding: 15px;
+  margin-bottom: 0;
+  margin-left: 10px;
+  font-weight: 300;
 
-#contact li {
-  margin-bottom: 10px;
-}
-
-label,
-input[type=text],
-input[type=email],
-textarea {
-  display: block;
-  width: 100%;
-}
-
-input[type=text],
-input[type=email],
-textarea {
-  height: 35px;
-  padding: 0 10px;
-  font-size: 14px;
-  border: 1px solid #dddddd;
-}
-
-textarea {
-  height: 200px;
-}
-
-input[type=submit] {
-  padding: 10px 30px;
-  font-size: 18px;
   color: #ffffff;
-  cursor: pointer;
+  text-align: center;
   background: #4aaaa5;
-  border: 0 none;
+  border-bottom: 0;
+  clear: both;
+ 
 }
+
+.img1{
+
+  content:url("../assets/images/b1.png"); 
+   width : 200px;
+   height: 200px; 
+   float: left; 
+   margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.column h3{
+
+  
+  
+    position: absolute;
+    bottom: 2px;
+    width: 150px;
+    padding: 15px;
+    margin-bottom: 0;
+    margin-left: 10px;
+    font-weight: 300;
+  
+    color: #ffffff;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0;
+ 
+}
+
+
+
+
+
+
+
